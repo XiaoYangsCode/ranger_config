@@ -4,6 +4,8 @@ before install ranger should install [iterm_beautiy](./doc/iterm_doc.md) first
 
 this file show how to install ranger
 
+git clone to `~/.config/`
+
 1. Keymapping
 
 | hotkey      | action                  |
