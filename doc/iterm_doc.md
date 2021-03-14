@@ -30,7 +30,7 @@ chsh -s /bin/zsh
 
 3. Change theme
 
-	we use defalte theme, if you want to change, change`.zshrc`
+	we use defalte theme, if you want to change, change`.zshrc`, and install Nerd font from [https://github.com/ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 ```bash
 ZSH_THEME="robbyrussell"
 ```
@@ -58,7 +58,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 sudo git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 # 编辑配置文件，使用插件
 vim ~/.zshrc
-add one line
+# add one line
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ```
 
