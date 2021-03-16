@@ -96,7 +96,7 @@ mime ^text,  label pager  = "$PAGER" -- "$@"
 - mkcd (mkdir + cd)
 - fzf_select
 - compress and extracter for zip
-
+- code for `move to trash` is not same on linux and mac (in rc.conf)
 
 6. Problem
 **comment scope.sh for freeze the wnd**
