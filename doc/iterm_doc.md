@@ -5,6 +5,10 @@
 ```bash
 brew cask install iterm2
 ```
+```bash
+sudo apt install zsh
+```
+
 
 2. Download `oh my zsh`
 
