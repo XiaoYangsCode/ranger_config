@@ -114,8 +114,9 @@ set preview_images true
 #   Preview images in full color with the external command "ueberzug".
 #   Images are shown by using a child window.
 #   Only for users who run X11 in GNU/Linux.
+set preview_images_method ueberzug
 #set preview_images_method w3m
-set preview_images_method iterm2
+#set preview_images_method iterm2
 
 # Delay in seconds before displaying an image with the w3m method.
 # Increase it in case of experiencing display corruption.
@@ -508,9 +509,9 @@ map dr cut mode=remove
 map dt cut mode=toggle
 
 # move to trash for mac
-map dT shell mv %s ~/.Trash && echo "trashed %s from_dir $(pwd)" >> ~/.config/ranger/trash_history
-map uD shell fileToRestore=$(cat ~/.config/ranger/trash_history | grep "^trashed" | tail -n 1 | cut -c10- | awk -F "from_dir " '{print $1}' | rev | cut -c3- | rev) && mv -i ~/.Trash/$fileToRestore $fileToRestore && echo "untrashed $(pwd)/$fileToRestore" >> ~/.config/ranger/trash_history && unset $fileToRestore
-map dh shell less ~/.config/ranger/trash_histor
+#map dT shell mv %s ~/.Trash && echo "trashed %s from_dir $(pwd)" >> ~/.config/ranger/trash_history
+#map uD shell fileToRestore=$(cat ~/.config/ranger/trash_history | grep "^trashed" | tail -n 1 | cut -c10- | awk -F "from_dir " '{print $1}' | rev | cut -c3- | rev) && mv -i ~/.Trash/$fileToRestore $fileToRestore && echo "untrashed $(pwd)/$fileToRestore" >> ~/.config/ranger/trash_history && unset $fileToRestore
+#map dh shell less ~/.config/ranger/trash_histor
 # move to trash fo linux
 #map dT shell mv -i %s ~/.local/share/Trash/files/ && echo "trashed %s        from_dir $(pwd)" >> ~/.config/ranger/trash_history 
 #map uD shell fileToRestore=$(cat ~/.config/ranger/trash_history | grep "^trashed" | tail -n 1 | cut -c10- | awk -F"from_dir " '{print $1}' | rev | cut -c10- | rev) && mv -i ~/.local/share/Trash/files/$fileToRestore $fileToRestore && echo "         untrashed $(pwd)/$fileToRestore" >> ~/.config/ranger/trash_history && unset $fileToRestore
