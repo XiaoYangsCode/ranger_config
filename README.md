@@ -8,6 +8,8 @@ git clone to `~/.config/`
 
 copy file `rc.conf` in `temp` $\to$ project root
 
+install extensions
+
 1. Keymapping
 
 	| hotkey      | action                      |
@@ -35,13 +37,6 @@ copy file `rc.conf` in `temp` $\to$ project root
 
 
 2. Install package
-
-	install nerd-font first at [https://github.com/ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
-
-	 ```bash
-	 mkdir -p ~/.local/share/fonts
-	 cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
-	 ```
 
 	**For Mac**
 
