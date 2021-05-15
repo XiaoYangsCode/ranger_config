@@ -797,3 +797,5 @@ map C console compress%space
 map X console extracthere%space
 # md to pdf
 map cp shell pandoc %f -o %f.pdf
+
+map <A-g> shell lazygit
